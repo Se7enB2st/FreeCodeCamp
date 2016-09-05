@@ -6,11 +6,11 @@
 //For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 function factorialize(num) {
-  var total = 1;
-  for (var i = 0; i < num; i++){
-    total = total * (num - i);
-  }
-  return total;
+    var total = 1;
+    for (var i = 0; i < num; i++){
+        total = total * (num - i);
+    }
+    return total;
 }
 
 factorialize(5); //120
