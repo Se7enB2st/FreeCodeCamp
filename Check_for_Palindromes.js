@@ -6,8 +6,8 @@
 //ignoring punctuation, case, and spacing.
 
 function palindrome(str) {
-  str = str.toLowerCase().replace(/[\W_-]/g, ''); // remove all non-alphanumeric characters
-  return str === str.split('').reverse().join('');
+    str = str.toLowerCase().replace(/[\W_-]/g, ''); // remove all non-alphanumeric characters
+    return str === str.split('').reverse().join('');
 }
 
 palindrome("eye"); // true
