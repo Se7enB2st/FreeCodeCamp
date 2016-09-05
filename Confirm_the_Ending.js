@@ -11,3 +11,10 @@ function confirmEnding(str, target) {
 }
 
 confirmEnding("Bastian", "n"); //true
+
+//ES2015 endsWith method 
+function confirmEnding(str, target) {
+	return str.endsWith(target);
+}
+
+confirmEnding("Bastian", "n"); //true
