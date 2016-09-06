@@ -8,13 +8,13 @@
 //then the addition of the three dots does not add to the string length in determining the truncated string.
 
 function truncateString(str, num) {
-  if (str.length <= num) {
-    return str;
-  } else if (num <= 3) {
-    return str.slice(0, num) + '...'; 
-  } else {
-    return str.slice(0, num - 3) + '...'; 
-  }    
+    if (str.length <= num) {
+      return str;
+    } else if (num <= 3) {
+      return str.slice(0, num) + '...'; 
+    } else {
+      return str.slice(0, num - 3) + '...'; 
+    }    
 }
 
 truncateString("All I do is code.", 15); //"All I do is ..."
