@@ -10,9 +10,9 @@ function getIndexToIns(arr, num) { //sort the array in ascending order
     arr.sort(function(a, b) { 
         return a - b;
     });
-    for(var index = 0; index < arr.length; index++) {
+    for(var index = 0; index < arr.length; index++) { //loop thru the array
         if(num <= arr[index]) {
-            break;
+            break; // Jump out of array
         }
     }
     return index;
